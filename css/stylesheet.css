@@ -1,0 +1,70 @@
+
+body{
+    background-color: dodgerblue;
+}
+
+.Container h1,h2{
+    text-align: center;
+    font-family: "Javanese Text", serif ;
+}
+
+.miniContainer{
+    border: dashed;
+    padding: 10px;
+    text-align:center ;
+}
+
+#busqueda{
+    font-size: 20px;
+    position: relative;
+    border: hidden;
+    width: 450px;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 50px;
+}
+
+button{
+    position: relative;
+    left: -35px;
+    border: hidden;
+    background-color: transparent;
+    font-size: 22px;
+    cursor: hand;
+}
+
+.carpetas {
+
+    background: #F82D63;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 35px;
+    border-radius: 5px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.carpetas:hover{
+    background: #C0007D;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+a{
+    font-size: 18px;
+    font-family: "Segoe UI Black";
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    font-size: 20px;
+    font-family: "Segoe UI Black";
+    color: white;
+}
