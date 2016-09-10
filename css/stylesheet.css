@@ -1,5 +1,5 @@
 *{
-    margin: 0px;
+    margin: 0;
 }
 
 body{
@@ -36,11 +36,12 @@ body{
 .cont-logo{
     width: 90px;
     height: 50px;
-    background-image: url("http://usethedrive.tk/img/logo_u_nvx_comm.png");
-    background-repeat: no-repeat;
+    /*("http://usethedrive.tk/img/logo_u_nvx_comm.png")*/
+    background: url('../img/logo.png') no-repeat;
     background-size: 60%;
     vertical-align: middle;
 }
+
 
 
 .button-logo{
@@ -59,9 +60,8 @@ body{
     font-size: 20px;
     border: hidden;
     width: 450px;
-    height: 20px;
+    height: 50px;
     padding-left: 20px;
-    padding-right: 10px;
     border-radius: 50px;
 }
 
@@ -120,4 +120,121 @@ p{
     font-size: 20px;
     font-family: "Segoe UI Black";
     color: white;
+}
+
+/*LOGIN*/
+.background{
+    height: 500px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+
+.loginBox{
+    -webkit-order: 0;
+    order: 0;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    align-self: auto;
+    border-radius: 1%;
+    background-color: white;
+    -webkit-box-shadow: 4px 7px 38px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 7px 38px -2px rgba(0,0,0,0.75);
+    box-shadow: 4px 7px 38px -2px rgba(0,0,0,0.75);
+    height: 400px;
+    width: 500px;
+    align-items: center;
+}
+
+.box-logo{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    height: 0px;
+}
+
+.box-logo > img{
+    position: relative;
+    width: 90px;
+    bottom: 40px;
+}
+
+.box-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #000;
+    font-family: "Ebrima";
+    font-size: 11px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: teal;
+    border-radius: 3px;
+    color: white;
+}
+
+.box-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.box-content > p {
+    color: #000;
+    font-family: "Consolas";
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+
+.form{
+    width:300px ;
+    margin-bottom:15px ;
+    background-color: #fff;
+    border: solid 1px #ccc;
+    box-shadow: none;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 14px;
+}
+
+.submit{
+    font-size: 20px;
+    color:white;
+    background-color: #F82D63;
+    border-radius: 5px;
+}
+.submit:focus{
+    color: black;
+
+}
+
+.box-content > a{
+    font-family: Consolas;
+    font-size: 12px;
+    color: black;
+    padding: 5px;
+
 }

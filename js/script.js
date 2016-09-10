@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     $("#busqueda").on("keyup", buscar);
-    
+
     function buscar() {
         var carpetas = $(".carpetas");
         var texto = $("#busqueda").val();
@@ -17,4 +17,17 @@ $(document).ready(function() {
         }
     }
 
+});
+
+/*Cambiar fondo login*/
+
+$(document).ready(function(e) {
+    $.backstretch([
+        "img/wall1.jpg",
+        "img/wall2.jpg",
+        "img/wall3.jpg"
+    ],{
+        fade:758,
+        duration:8666
+    });
 });
