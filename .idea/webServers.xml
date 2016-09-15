@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="591eb554-be79-4386-846b-7d4eb963711d" name="hostinger" url="http://ftp.usethedrive.tk">
+        <fileTransfer host="ftp.usethedrive.tk" port="21" rootFolder="/public_html" password="dfe4dfebdfd0dfd0dfcbdfd8dfcbdf9bdf98" username="u544312543">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

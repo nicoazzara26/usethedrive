@@ -220,6 +220,15 @@ p{
     font-size: 14px;
 }
 
+.psw-hide{
+    visibility: hidden;
+    display: none;
+}
+
+.psw-show{
+
+}
+
 .submit{
     font-size: 20px;
     color:white;

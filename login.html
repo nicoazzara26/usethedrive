@@ -24,14 +24,21 @@
             <div class="box-content">
 
                 <p>¡Bienvenido a Use The Drive!, hecho por y para estudiantes. </p>
+<form id="formulario">
 
                 <input class="form" type="text" name="correo" id="usr" placeholder="Correo ">
+    <div class="psw-hide">
+               <span id="change" class="eye"></span><input class="form" type="PASSWORD" name="contraseña" id="psw" placeholder="Contraseña">
+    </div>
 
-                <input class="form" type="text" name="contraseña" id="psw" placeholder="Contraseña">
-
-                <input class="form submit" type="button" value="Ingresar">
+    <div class="psw-show">
+                <span id="change" class="eye"></span><input class="form" type="text" name="contraseña" id="psw" placeholder="Contraseña">
+    </div>
+</form>
+                <input class="form submit" type="button" id="ingresar"value="Ingresar">
                 <a href="#">Regístrate</a>
                 <a href="#"> Olvidaste tu Contraseña</a>
+
             </div>
         </div>
     </div>

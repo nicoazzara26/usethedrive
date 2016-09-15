@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/stylesheet.css" >
+    <meta name="viewport" content="initial-scale=1">
+    <title>Registro</title>
+    <script type="text/javascript" src="js/jquery-3.1.0.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/conexion.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+</head>
+
+<body>
+<div class="cont">
+    <div class="background">
+        <div class="loginBox">
+            <div class="box-logo">
+                <img src="img/LOG-U.gif" alt="">
+            </div>
+
+            <div class="box-title">
+
+                <h1>¡Unite a Use The Drive! </h1>
+            </div>
+            <div class="box-content">
+                <p> Por favor completa el formulario. </p>
+                <form method="post" action="conexion.php">
+        <input class="form" type="text" name="nombre" id="nombre" placeholder="Nombre">
+        <input class="form" type="text" name="apellido" id="apellido" placeholder="Apellido">
+        <input class="form" type="text" name="correo" id="usr" placeholder="Correo ">
+        <div class="psw-hide">
+            <span  class="eye"></span><input class="form" type="text" name="contraseña"  placeholder="Contraseña">
+        </div>
+
+        <div class="psw-show">
+            <span id="change" class="eye"></span><input class="form" type="password" name="contraseña" id="psw" placeholder="Contraseña">
+        </div>
+    </form>
+    <input class="form submit" type="button" id="submit" value="Submit">
+                <span id="result"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
