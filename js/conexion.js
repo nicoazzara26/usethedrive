@@ -2,17 +2,17 @@ $(document).ready(function(){
 
     $('#submit').click(function(){
 
-        var nombre = $('#nombre').val();
-        var apellido = $('#apellido').val();
-        var correo = $('#usr').val();
-        var contraseña = $('#psw').val();
+        var name = $('#name').val();
+        var surname = $('#surname').val();
+        var email = $('#email').val();
+        var psw = $('#psw').val();
 
-        $.post("conexion.php",{nombre:nombre, apellido:apellido, correo:correo, contraseña:contraseña},
-        function(data){
-            $('#submit').val();
-            if(data){
-                $("#result").html(data);
-            }
-        });
+        $.post("conexion.php",{name:name, surname:surname, email:email, psw:psw},
+            function(data){
+                $('#submit').val();
+                if(data){
+                    $("#result").html(data);
+                }
+            });
     });
 });

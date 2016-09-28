@@ -1,0 +1,108 @@
+/*Tags*/
+
+body{
+    background-color: white;
+}
+
+img{
+    height:140px;
+    width: 250px;
+    border-radius: 5px;
+    padding-right: 50px;
+}
+
+p{
+
+    font-size: 20px;
+    font-family: "Segoe UI Black";
+    color: black;
+}
+
+/*Class*/
+
+/*Full-app*/
+
+.container {
+     display: flex;
+     flex-wrap: wrap;
+     text-align: center;
+     font-family: "Javanese Text", serif ;
+ }
+/*Header*/
+
+.full-header{
+    background-color: white;
+    -webkit-box-shadow: 0 1px 0 0 rgba(226, 30, 30, 0.55);
+    box-shadow: 0 1px 0 0 rgba(255, 8, 8, 0.65);
+    height: auto;
+    width: 100%;
+}
+
+.header-container{
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    position: static;
+    width: auto;
+    padding: 10px 10px;
+}
+
+.cont-logo{
+    width: 90px;
+    height: 60px;
+    background: url('../images/logo.png') no-repeat;
+    background-size: 60%;
+    vertical-align: middle;
+}
+
+.search {
+    font-size: 20px;
+    border: solid 2px lightgrey;
+    width: 450px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+/*Main*/
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+
+ }
+
+.folders {
+    display:flex ;
+    flex-direction: column;
+    background-color: #F0EFED;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.folders:hover {
+  background-color: #E6E4E1;
+
+}
+
+.img{
+    border-radius: 5px;
+    height:140px;
+    width: 310px;
+
+}
+
+.img:hover{
+
+}
+
+.text{
+    font-size: 18px;
+    font-family: "Segoe UI Black";
+    color: black;
+    text-decoration: none;
+
+    padding: 10px;
+}

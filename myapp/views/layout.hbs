@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <script type="text/javascript" src='/javascripts/jquery-3.1.0.js'></script>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/resetcss.css' />
+  </head>
+<body>
+<!-- Header -->
+<script type="text/javascript">
+var subjectJSON = $.getJSON('subjects.json',function( data ) {
+   $(data.subjects[0]).each(function(index,value){
+     console.log(value.name, value.teacher, value.level);
+   });
+  });
+</script>
+<div class="container">
+      <div class="full-header">
+        <div class="header-container">
+            <div class="cont-logo">
+                <a class="logo" type="button">
+                    <em></em>
+                </a>
+            </div>
+            <div >
+                <input type="text" class="search" placeholder="Buscar...">
+            </div>
+        </div>
+    </div>
+
+<!--Main-->
+  <div class="main">
+      <div class="folders">
+            <div class="img">
+                <img src="images/QUIMICA.jpg" alt="Quimica">
+            </div>
+            <div class="text"></div>
+            {{{body}}}
+        </div>
+  </div>
+  </body>
+</html>

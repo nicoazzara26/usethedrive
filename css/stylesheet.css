@@ -1,16 +1,14 @@
-*{
-    margin: 0;
-}
-
 body{
-    background-color: dodgerblue;
+    background-color: white;
     height: auto;
 }
 
-.Container{
-
-}
-
+.Container {
+     display: flex;
+    flex-wrap: wrap;
+     text-align: center;
+     font-family: "Javanese Text", serif ;
+ }
 
 .Full-header{
 
@@ -23,98 +21,81 @@ body{
 }
 
 .header-container{
-
-    display: flex;
     display: -webkit-flex;
     flex-direction: row;
     flex-wrap: wrap;
     height: auto;
     position: static;
     width: auto;
-    padding: 12px 16px;
+    padding: 10px 10px;
 }
 .cont-logo{
     width: 90px;
     height: 50px;
-    /*("http://usethedrive.tk/img/logo_u_nvx_comm.png")*/
     background: url('../img/logo.png') no-repeat;
     background-size: 60%;
     vertical-align: middle;
-}
-
-
-
-.button-logo{
-
-}
-
-
-
-.search{
-
-
-
 }
 
 #busqueda {
     font-size: 20px;
     border: hidden;
     width: 450px;
-    height: 50px;
+    height: 40px;
     padding-left: 20px;
     border-radius: 50px;
 }
 
-.Container h1,h2{
-    text-align: center;
-    font-family: "Javanese Text", serif ;
-}
-
-.miniContainer{
-    border: dashed;
-    padding: 10px;
-    text-align:center ;
-}
-
-
-
-button{
-    position: relative;
-    left: -35px;
-    border: hidden;
-    background-color: transparent;
-    font-size: 22px;
-    cursor: hand;
-}
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+ }
 
 .carpetas {
-
-    background: #F82D63;
-    color: white;
-    display: inline-block;
-    margin: 10px;
-    padding: 35px;
+    height:140px;
+    width: 310px;
+    border: solid   black  2px;
     border-radius: 5px;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
-}
-.carpetas:hover{
-    background: #C0007D;
-    color: white;
-    display: inline-block;
+    background: url("../img/fondo-carpetas.jpg");
     margin: 10px;
-    padding: 50px;
-    border-radius: 5px;
 }
 
-a{
+img{
+    height:140px;
+    width: 310px;
+    border-radius: 5px;
+    padding-right: 50px;
+}
+
+.img{
+    height:140px;
+    width: 310px;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+}
+.img:hover{
+    transform: translate(-78px,-35px) scale(0.5);
+    -webkit-transform: translate(-78px,-35px) scale(0.5);
+    -moz-transform: translate(-78px,-35px) scale(0.5);
+    -o-transform: translate(-78px,-35px) scale(0.5);
+    -ms-transform: translate(-78px,-35px) scale(0.5);
+}
+
+.text{
+    position: relative;
     font-size: 18px;
     font-family: "Segoe UI Black";
-    color: white;
+    color: black;
     text-decoration: none;
+    bottom:120px;
+    left: 70px;
 }
+
 
 p{
     font-size: 20px;
@@ -204,7 +185,7 @@ p{
 }
 
 
-.form{
+.input{
     width:300px ;
     margin-bottom:15px ;
     background-color: #fff;
