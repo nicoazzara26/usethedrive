@@ -1,11 +1,14 @@
 var express = require('express');
 var router = express.Router();
-
+var google_drive_service = require('../services/google-drive-service');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'UseTheDrive' });
+  var subjects = google_drive_service.subjects()
   
+  res.render('index', { title: 'UseTheDrive' });
+
 });
+
 
 module.exports = router;

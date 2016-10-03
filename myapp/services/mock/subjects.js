@@ -1,5 +1,5 @@
-{
-  "subjects":
+module.exports = {
+  "list-subjects":
   [
     {
       "id": 1,
