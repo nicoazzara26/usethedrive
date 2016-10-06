@@ -1,7 +1,8 @@
 /*Tags*/
 
 body{
-    background-color: white;
+    background: url('../images/fondo.jpg') no-repeat ;
+    background-size: cover;
 }
 
 img{
@@ -31,9 +32,10 @@ p{
 /*Header*/
 
 .full-header{
+
     background-color: white;
     -webkit-box-shadow: 0 1px 0 0 rgba(226, 30, 30, 0.55);
-    box-shadow: 0 1px 0 0 rgba(255, 8, 8, 0.65);
+    box-shadow: 0 2px 0 0 rgba(255, 8, 8, 0.65);
     height: auto;
     width: 100%;
 }
@@ -75,14 +77,18 @@ p{
 
 .folders {
     display:flex ;
-    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: #F0EFED;
     border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
+    margin: 30px;
+    padding: 0px;
+    padding-top: 20px;
 }
 
-.folders:hover {
+.select:hover {
+  border-radius: 5px;
   background-color: #E6E4E1;
 
 }
@@ -94,15 +100,10 @@ p{
 
 }
 
-.img:hover{
-
-}
-
 .text{
     font-size: 18px;
-    font-family: "Segoe UI Black";
+    font-family: "Segoe UI";
     color: black;
     text-decoration: none;
-
     padding: 10px;
 }

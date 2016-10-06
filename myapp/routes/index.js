@@ -5,8 +5,8 @@ var google_drive_service = require('../services/google-drive-service');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   var subjects = google_drive_service.subjects()
-  
-  res.render('index', { title: 'UseTheDrive' });
+
+  res.render('index', { title: 'UseTheDrive' , subjects: subjects});
 
 });
 

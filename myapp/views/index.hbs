@@ -1,3 +1,14 @@
+{{#each subjects}}
+<div class="select">
 
+<div class="img">
+<img src="/images/{{name}}{{type}}">
+</div>
 
-<p> Materia:{{{subject}}} Profesor:{{teacher}} Año:{{level}}</p>
+ <p class="text"> Materia: {{name}}
+  Profesor: {{teacher}}
+  <br>
+  </br>
+  Año: {{level}}</p>
+  </div>
+{{/each}}
