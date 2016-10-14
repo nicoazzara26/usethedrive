@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <script type="text/javascript" src='/javascripts/jquery-3.1.0.js'></script>
+    <script type="text/javascript" src='/javascripts/formscript.js'></script>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/resetcss.css' />
+  </head>
+<body>
+<!-- Header -->
+<div class="container">
+      <div class="full-header">
+        <div class="header-container">
+            <div class="cont-logo">
+                <a class="logo" type="button">
+                    <em></em>
+                </a>
+            </div>
+            <div >
+                <input type="text" class="search" placeholder="Buscar...">
+            </div>
+            <a href='#' class="newFolder jsnewfolder"></a>
+        </div>
+      </div>
+
+<!--Main-->
+  <div class="main">
+      <div class="folders">
+      {{{body}}}
+  </div>
+  <!--Modal-->
+  <div class="m-background">
+  </div>
+    <div class="modal">
+        <div class="box-logo">
+        <img src="images/LOG-U.gif" alt="">
+      </div>
+      <div class="box-title">
+          <h1>Agregar una nueva carpeta</h1>
+      </div>
+      <div class="box-content">
+    <form class="newfile"  method="post">
+      <input class="subject" type="text" name="subject" placeholder="Materia">
+      <input class="teacher"  type="text" name="teacher" placeholder="Profesor">
+      <input class="level" type="text" name="level" placeholder="Año">
+      <input class="button jsbutton" type="button" name="crear" value="crear">
+    </form>
+  </div>
+    </div>
+    </body>
+  </html>
