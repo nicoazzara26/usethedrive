@@ -109,6 +109,10 @@ p{
 
 }
 
+a.linksubject{
+  text-decoration: none;
+}
+
 .img{
     border-radius: 5px;
     height:140px;
