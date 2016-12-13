@@ -6,7 +6,7 @@ module.exports =
       "teacher":"Gerscovich",
       "level":"2°",
       "type": ".jpg",
-      "folderId": "0B8HrycSvPE4yU2xpalUtOXJWekE"
+      "fileId":"0B8HrycSvPE4yU2xpalUtOXJWekE"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@ module.exports =
       "teacher":"Martinez",
       "level":"2°",
       "type": ".png",
-      "folderId": "0B8HrycSvPE4yNElxY1FlT1VZSkk"
+      "fileId":"0B8HrycSvPE4yNElxY1FlT1VZSkk"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@ module.exports =
       "teacher":"Carfi",
       "level":"2°",
       "type": ".jpg",
-      "folderId": "0B8HrycSvPE4yRGRsNkV5eV9ieG8"
+      "fileId":"0B8HrycSvPE4yRGRsNkV5eV9ieG8"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@ module.exports =
       "teacher":"...",
       "level":"2°",
       "type": ".jpg",
-      "folderId": "0B8HrycSvPE4yLWtteE5QNy1nd2M"
+      "fileId":"0B8HrycSvPE4yLWtteE5QNy1nd2M"
     },
     {
       "id": 5,
@@ -38,6 +38,6 @@ module.exports =
       "teacher":"...",
       "level":"2°",
       "type": ".jpg",
-      "folderId": "0B8HrycSvPE4yRWdnTXBGaGNwSW8"
+      "fileId":"0B8HrycSvPE4yRWdnTXBGaGNwSW8"
     },
   ]
