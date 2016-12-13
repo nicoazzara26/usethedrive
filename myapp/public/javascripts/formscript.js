@@ -1,11 +1,11 @@
 $(document).ready(function () {
-var formbutton =   $(".jsbutton");
+var formbutton = $(".jsbutton");
 var newFolder = $(".jsnewfolder");
 var backmodal = $(".m-background");
 var modal = $(".modal");
 
 /*show/hide*/
-$(newFolder).click(function(){
+newFolder.click(function(){
 showmodal();
   });
 
@@ -13,7 +13,6 @@ backmodal.click(function(){
 hidemodal();
 });
 /**/
-
 
 var subject = $(".subject");
 var teacher = $(".teacher");
@@ -102,5 +101,6 @@ if(input_list[i] == campo){
     input_list.pop();
     input_list.pop();
   }
+
 
 });/*Document END*/

@@ -4,12 +4,18 @@ var google_drive_service = require('../services/google-drive-service');
 
  /* GET subject view listing. */
 
-router.get('/:id', function(req, res) {
+router.get('/:name', function(req, res) {
 
-    var id = req.params.id;
-    var subjects = google_drive_service.subjects();
+var subjects = google_drive_service.subjects();
 
- res.render('onesubjectview', { title: 'UseTheDrive', subjects:subjects, id:subjects.id});
- });
+var obj = subjects.filter(function(obj){
+
+if(req.params.name == obj.name){
+
+  res.render('onesubjectview', obj)
+}
+
+})[0];
+});
 
 module.exports = router;

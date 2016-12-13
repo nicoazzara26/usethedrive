@@ -11,10 +11,6 @@ var onesubject = require('./routes/onesubjectroute');
 var app = express();
 
 
-//prueba
-
-
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
